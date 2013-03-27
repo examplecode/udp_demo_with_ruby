@@ -4,7 +4,7 @@ ruby 脚本展示udp 通讯方式.
 
 ## userver ##
 服务端绑定端口接收客户端的发送的消息，然后发送消息给客户端
-
+```ruby
 #!/usr/bin/env ruby
 
 require 'socket.so'
